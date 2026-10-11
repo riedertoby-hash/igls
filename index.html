@@ -11,7 +11,7 @@
       --card: #ffffff;
       --text: #1f2421;
       --muted: #5c645f;
-      --accent: #2f6b4f;
+      --accent: #d52b1e;
       --line: #e2e0d8;
     }
     * { box-sizing: border-box; }
@@ -24,13 +24,7 @@
     }
     main { max-width: 760px; margin: 0 auto; padding: 48px 16px 32px; }
     header { text-align: center; margin-bottom: 40px; }
-    .logo { width: 140px; height: auto; margin-bottom: 16px; }
-    .logo-placeholder {
-      display: inline-flex; align-items: center; justify-content: center;
-      width: 120px; height: 120px; margin-bottom: 16px;
-      border-radius: 50%; background: var(--accent); color: #fff;
-      font-weight: 700; font-size: 1.6rem; letter-spacing: 0.05em;
-    }
+    .logo { width: 200px; height: auto; margin-bottom: 16px; }
     h1 { font-size: 1.9rem; margin: 0 0 8px; }
     h2 { font-size: 1.2rem; margin: 0 0 16px; color: var(--accent); }
     .lead { color: var(--muted); font-size: 1.1rem; margin: 0; }
@@ -51,8 +45,7 @@
 <body>
   <main>
     <header>
-      <!-- Logo: logo.png ins gleiche Verzeichnis legen und Platzhalter ersetzen -->
-      <div class="logo-placeholder" aria-hidden="true">IG LS</div>
+      <img class="logo" src="logo.png" alt="Logo IG LS">
       <h1>Herzlich willkommen</h1>
       <p class="lead">bei der Interessengemeinschaft Liching und Schmid</p>
     </header>
